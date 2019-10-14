@@ -5,7 +5,7 @@ import seedColors from './seedColors';
 function App() {
   return (
     <Fragment>
-      <Palette />
+      <Palette {...seedColors[4]} />
     </Fragment>
   );
 }
